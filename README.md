@@ -10,3 +10,4 @@ A curation of projects and resources  involving running Kubernetes at home. ⛵
 - [anthr76/infra](https://github.com/anthr76/infra) - Flux/Gitops mixed architecture managed cluster for homelab cololocations built with Terraform/Typhoon & Ansible/Kubespray on K8s
 - [billimek/k8s-gitops](https://github.com/billimek/k8s-gitops) - GitOps principles to define kubernetes k3s cluster state via code, running on mixed-architecture hardware with infra config in [billimek/homelab-infrastructure](https://github.com/billimek/homelab-infrastructure)
 - [zenxedo/k3s-gitops](https://github.com/zenxedo/k3s-gitops) - Flux/GitOps managed k3s cluster
+- [blackjid/k8s-gitops](https://github.com/blackjid/k8s-gitops) -   Flux/GitOps managed cluster built with Terraform and libvirt at [blackjid/homelab-infra](https://github.com/blackjid/homelab-infra)
