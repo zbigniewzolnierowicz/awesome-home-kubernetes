@@ -2,6 +2,9 @@
 
 A curation of projects and resources  involving running Kubernetes at home. ⛵
 
+[![search](https://img.shields.io/badge/search-repos-orange?style=for-the-badge)](https://github.com/search/advanced?q=repo%3Aonedr0p%2Fhome-cluster+repo%3Acarpenike%2Fk8s-gitops+repo%3Azacheryph%2Fk8s-gitops+repo%3Aanthr76%2Finfra+repo%3Abillimek%2Fk8s-gitops+repo%3Abjw-s%2Fk8s-gitops+repo%3Azenxedo%2Fk3s-gitops+repo%3Ablackjid%2Fk8s-gitops+repo%3Avaskozl%2Fhome-infra+repo%3Atimtorchen%2Fpi-cluster+repo%3Aams0%2Francher-home+repo%3Anpawelek%2Fk8s-gitops+repo%3Azbigniewzolnierowicz%2Fk8s-home+repo%3Afobiat%2Fk8s-gitops+repo%3Axunholy%2Fk8s-gitops+repo%3Alanquarden%2Froci-gitops&type=Code)
+[![search](https://img.shields.io/badge/search-users-orange?style=for-the-badge)](https://github.com/search/advanced?q=user%3Aonedr0p+user%3Acarpenike+user%3Azacheryph+user%3Aanthr76+user%3Abillimek+user%3Abjw-s+user%3Azenxedo+user%3Ablackjid+user%3Avaskozl+user%3Atimtorchen+user%3Aams0+user%3Anpawelek+user%3Azbigniewzolnierowicz+user%3Afobiat+user%3Axunholy+user%3Alanquarden&type=Code)
+
 ## home gitops clusters
 
 - [onedr0p/home-cluster](https://github.com/onedr0p/home-cluster) -   running Flux and built with Ansible at [onedr0p/home-operations](https://github.com/onedr0p/home-operations)
@@ -19,3 +22,4 @@ A curation of projects and resources  involving running Kubernetes at home. ⛵
 - [zbigniewzolnierowicz/k8s-home](https://github.com/zbigniewzolnierowicz/k8s-home) - Flux2/Gitops managed cluster running on k3s
 - [fobiat/k8s-gitops](https://github.com/fobiat/k8s-gitops) -  Flux2/GitOps managed cluster running on k8s
 - [xunholy/k8s-gitops](https://github.com/xunholy/k8s-gitops) - Home Kubernetes cluster managed by GitOps on Raspberry Pis with Ansible at [kubeflare/k8s-cluster-installation](https://github.com/raspbernetes/k8s-cluster-installation)
+- [lanquarden/roci-gitops](https://github.com/lanquarden/roci-gitops) - Flux/GitOps managed k3s HA cluster built with Ansible at [lanquarden/home-operations](https://github.com/lanquarden/home-operations)
