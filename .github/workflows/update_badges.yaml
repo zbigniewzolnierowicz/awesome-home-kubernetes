@@ -19,7 +19,7 @@ jobs:
       - name: Run script
         id: run
         run: |
-          ./github/scripts/update_search_badges.sh
+          .github/scripts/update_search_badges.sh
 
       - name: Commit and push updated badges
         run: |
