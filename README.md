@@ -42,7 +42,7 @@ A curation of projects and resources  involving running Kubernetes at home. ⛵
 
 ## Helm Chart Repositories
 
-[![search-charts](https://img.shields.io/badge/search-repos-orange?style=for-the-badge)](https://github.com/search/advanced?q=repo%3Ak8s-at-home%2Fcharts+repo%3Anicholaswilde%2Fhelm-charts+repo%3Atruecharts%2Ftruecharts+repo%3Ahalkeye%2Fhelm-charts&type=Code)
+[![search-charts](https://img.shields.io/badge/search-repos-orange?style=for-the-badge)](https://github.com/search/advanced?q=repo%3Ak8s-at-home%2Fcharts+repo%3Anicholaswilde%2Fhelm-charts+repo%3Atruecharts%2Fapps+repo%3Ahalkeye%2Fhelm-charts&type=Code)
 [![search-charts](https://img.shields.io/badge/search-users-orange?style=for-the-badge)](https://github.com/search/advanced?q=user%3Ak8s-at-home+user%3Anicholaswilde+user%3Atruecharts+user%3Ahalkeye&type=Code)
 
 <!--START-CHART-REPO-->
