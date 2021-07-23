@@ -42,6 +42,7 @@ A curation of projects and resources  involving running Kubernetes at home. ⛵
 | [rwaltr/infra](https://github.com/rwaltr/infra) | Argo/Terraform Managed Multi Cluster design. | 
 | [cbirkenbeul/k3s-gitops](https://github.com/cbirkenbeul/k3s-gitops) | Flux2/GitOps managed k3s cluster running on mixed architecture. |
 | [budimanjojo/home-cluster](https://github.com/budimanjojo/home-cluster) | Flux2/GitOps managed kubeadm cluster built without helm. |
+| [khuedoan/homelab](https://github.com/khuedoan/homelab) | Fully automated Kubernetes cluster from empty hard drives to running services with a single command (using PXE boot, RKE and ArgoCD). |
 <!--END-USER-REPO-->
 
 ## Helm Chart Repositories
