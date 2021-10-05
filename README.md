@@ -45,6 +45,7 @@ A curation of projects and resources  involving running Kubernetes at home. ⛵
 | [khuedoan/homelab](https://github.com/khuedoan/homelab) | Fully automated Kubernetes cluster from empty hard drives to running services with a single command (using PXE boot, RKE and ArgoCD). |
 | [nold360/heqet](https://github.com/nold360/heqet) | Argo-CD based Helm-Chart using the App-of-Apps pattern & some abstraction to make GitOps deployments/configuration as simple as possible. [[see docs](https://nold360.github.io/heqet)] |
 | [p3lim/rudder](https://github.com/p3lim/rudder) | Flux managed [Talos](https://talos.dev) cluster |
+| [Diaoul/home-ops](https://github.com/Diaoul/home-ops) | Flux/GitOps managed k3s cluster with Ansible |
 <!--END-USER-REPO-->
 
 ## Helm Chart Repositories
