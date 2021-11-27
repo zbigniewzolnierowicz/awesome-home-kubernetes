@@ -46,6 +46,7 @@ A curation of projects and resources  involving running Kubernetes at home. ⛵
 | [nold360/heqet](https://github.com/nold360/heqet) | Argo-CD based Helm-Chart using the App-of-Apps pattern & some abstraction to make GitOps deployments/configuration as simple as possible. [[see docs](https://nold360.github.io/heqet)] |
 | [p3lim/rudder](https://github.com/p3lim/rudder) | Flux managed [Talos](https://talos.dev) cluster |
 | [Diaoul/home-ops](https://github.com/Diaoul/home-ops) | Flux/GitOps managed k3s cluster with Ansible |
+| [charlie-haley/home-cluster](https://github.com/charlie-haley/home-cluster) | Multi-architecture, Flux managed cluster - provisioned with Sidero. |
 <!--END-USER-REPO-->
 
 ## Helm Chart Repositories
