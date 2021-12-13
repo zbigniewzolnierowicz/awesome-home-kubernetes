@@ -50,6 +50,7 @@ A curation of projects and resources involving running Kubernetes at home. ⛵
 | [charlie-haley/home-cluster](https://github.com/charlie-haley/home-cluster)         | Multi-architecture, Flux managed cluster - provisioned with Sidero.                                                                                                                                                  |
 | [kitos9112/k8s-home](https://github.com/kitos9112/k8s-home)                         | Flux/GitOps managed K3s home cluster running on ARM64 and AMD64 hardware                                                                                                                                             |
 | [jr0dd/home-ops](https://github.com/jr0dd/home-ops)                                 | One repo to rule them all. This serves my home infrastructure and Kubernetes cluster                                        |
+| [phybros/k3s-cluster](https://github.com/phybros/k3s-cluster)                       | Flux/GitOps managed k3s home cluster          |
 <!--END-USER-REPO-->
 
 ## Helm Chart Repositories
