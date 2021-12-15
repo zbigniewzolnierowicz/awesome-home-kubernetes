@@ -1,0 +1,29 @@
+# Awesome Home Kubernetes
+
+A curation of projects and resources involving running Kubernetes at home. ⛵
+
+- [Awesome Home Kubernetes](#awesome-home-kubernetes)
+  - [Home GitOps Kubernetes Clusters](#home-gitops-kubernetes-clusters)
+  - [Helm Chart Repositories](#helm-chart-repositories)
+
+## Home GitOps Kubernetes Clusters
+
+[![search-users](https://img.shields.io/badge/search-repos-orange?style=for-the-badge)]({{ user_repo_search_url }})
+[![search-users](https://img.shields.io/badge/search-users-orange?style=for-the-badge)]({{ user_search_url }})
+
+| Repository                                                      | Description                            |
+| --------------------------------------------------------------- | -------------------------------------- |
+{%- for repository in user_repositories %}
+| [{{ repository['repo'] }}]({{ repository['url'] }})             | {{ repository['description'] }}        |
+{%- endfor %}
+
+## Helm Chart Repositories
+
+[![search-charts](https://img.shields.io/badge/search-repos-orange?style=for-the-badge)]({{ chart_repo_search_url }})
+[![search-charts](https://img.shields.io/badge/search-users-orange?style=for-the-badge)]({{ chart_user_search_url }})
+
+| Repository                                                      | Description                            |
+| --------------------------------------------------------------- | -------------------------------------- |
+{%- for repository in chart_repositories %}
+| [{{ repository['repo'] }}]({{ repository['url'] }})             | {{ repository['description'] }}        |
+{%- endfor %}

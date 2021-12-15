@@ -1,0 +1,167 @@
+{
+  "user_repositories": [
+    {
+      "repo": "bjw-s/home-ops",
+      "description": "Flux/GitOps managed Talos"
+    },
+    {
+      "repo": "onedr0p/home-cluster",
+      "description": "Running Flux and built with Ansible"
+    },
+    {
+      "repo": "carpenike/k8s-gitops",
+      "description": "Flux/GitOps managed cluster built with kubeadm [carpenike/home-infra](https://github.com/carpenike/home-infra)"
+    },
+    {
+      "repo": "zacheryph/k8s-gitops",
+      "description": "Flux/GitOps managed cluster, on k3os (cloud-init in `/k3os`)"
+    },
+    {
+      "repo": "anthr76/infra",
+      "description": "Flux/Gitops mixed architecture managed clusters for homelab cololocations built with Talos and Sidero for netboot to Kubernetes on arm64 + amd64"
+    },
+    {
+      "repo": "billimek/k8s-gitops",
+      "description": "GitOps principles to define kubernetes k3s cluster state via code, running on mixed-architecture hardware with infra config in [billimek/homelab-infrastructure](https://github.com/billimek/homelab-infrastructure)"
+    },
+    {
+      "repo": "zenxedo/k3s-gitops",
+      "description": "Flux/GitOps managed k3s cluster"
+    },
+    {
+      "repo": "blackjid/k8s-gitops",
+      "description": "Flux/GitOps managed cluster built with Terraform and libvirt at [blackjid/homelab-infra](https://github.com/blackjid/homelab-infra)"
+    },
+    {
+      "repo": "vaskozl/home-infra",
+      "description": "Flux2 Raspberry Pi cluster running crème de la crème FOSS"
+    },
+    {
+      "repo": "timtorchen/pi-cluster",
+      "description": "Helmfile managed k3s cluster, with sops securing secrets"
+    },
+    {
+      "repo": "ams0/rancher-home",
+      "description": "RKE+Terraform-deployed cluster, with Fluxv1 ([video](https://www.youtube.com/watch?v=JrBo3UCe6ds&t=1375s))"
+    },
+    {
+      "repo": "npawelek/k8s-gitops",
+      "description": "Flux2/GitOps managed cluster built with Ansible and kubeadm"
+    },
+    {
+      "repo": "zbigniewzolnierowicz/k8s-home",
+      "description": "Flux2/Gitops managed cluster running on k3s"
+    },
+    {
+      "repo": "fobiat/k8s-gitops",
+      "description": "Flux2/GitOps managed cluster running on k8s"
+    },
+    {
+      "repo": "xunholy/k8s-gitops",
+      "description": "Home Kubernetes cluster managed by GitOps on Raspberry Pis with Ansible at [kubeflare/k8s-cluster-installation](https://github.com/raspbernetes/k8s-cluster-installation)"
+    },
+    {
+      "repo": "lanquarden/roci-gitops",
+      "description": "Flux/GitOps managed k3s HA cluster built with Ansible at [lanquarden/home-operations](https://github.com/lanquarden/home-operations)"
+    },
+    {
+      "repo": "angelnu/k8s-gitops",
+      "description": "Flux/GitOps k3s HA clusters (staging/production) built with Ansible/Proxmox. Use Ceph, Zalando Postgres and SOPS for persistency.)"
+    },
+    {
+      "repo": "WRMilling/k3s-gitops",
+      "description": "Flux2/GitOps managed k3s cluster running on mixed-architecture hardware (AMD64 + ARM64) as defined in [WRMilling/homelab-infrastructure](https://github.com/WRMilling/homelab-infrastructure)"
+    },
+    {
+      "repo": "nicholaswilde/home-cluster",
+      "description": "Flux/GitOps managed k3s cluster running on an arm64 [Turing Pi 1](https://turingpi.com/)"
+    },
+    {
+      "repo": "rust84/k8s-gitops",
+      "description": "Flux/GitOps managed k3s cluster running on mixed-architecture."
+    },
+    {
+      "repo": "auricom/home-cluster",
+      "description": "Flux2/Gitops managed cluster running on k3s"
+    },
+    {
+      "repo": "mcfio/GitOps",
+      "description": "ARM64 based Kubernetes cluster managed by FluxV2, using Git as a 'single source of truth.'"
+    },
+    {
+      "repo": "dirtycajunrice/gitops",
+      "description": "Argo CD managed cluster"
+    },
+    {
+      "repo": "todaywasawesome/atomic-cluster",
+      "description": "5-node home lab x86/arm built on Atomic Pis for under $250."
+    },
+    {
+      "repo": "toboshii/home-cluster",
+      "description": "Flux2/GitOps managed k3s cluster deployed on Proxmox using Terraform and Ansible."
+    },
+    {
+      "repo": "rwaltr/infra",
+      "description": "Argo/Terraform Managed Multi Cluster design."
+    },
+    {
+      "repo": "cbirkenbeul/k3s-gitops",
+      "description": "Flux2/GitOps managed k3s cluster running on mixed architecture."
+    },
+    {
+      "repo": "budimanjojo/home-cluster",
+      "description": "Flux2/GitOps managed kubeadm cluster built without helm."
+    },
+    {
+      "repo": "khuedoan/homelab",
+      "description": "Fully automated Kubernetes cluster from empty hard drives to running services with a single command (using PXE boot, k3s and ArgoCD)."
+    },
+    {
+      "repo": "nold360/heqet",
+      "description": "Argo-CD based Helm-Chart using the App-of-Apps pattern & some abstraction to make GitOps deployments/configuration as simple as possible. [[see docs](https://nold360.github.io/heqet)]"
+    },
+    {
+      "repo": "p3lim/rudder",
+      "description": "Flux managed [Talos](https://talos.dev) cluster"
+    },
+    {
+      "repo": "Diaoul/home-ops",
+      "description": "Flux/GitOps managed k3s cluster with Ansible"
+    },
+    {
+      "repo": "charlie-haley/home-cluster",
+      "description": "Multi-architecture, Flux managed cluster - provisioned with Sidero."
+    },
+    {
+      "repo": "kitos9112/k8s-home",
+      "description": "Flux/GitOps managed K3s home cluster running on ARM64 and AMD64 hardware"
+    },
+    {
+      "repo": "jr0dd/home-ops",
+      "description": "One repo to rule them all. This serves my home infrastructure and Kubernetes cluster"
+    },
+    {
+      "repo": "phybros/k3s-cluster",
+      "description": "Flux/GitOps managed k3s home cluster"
+    }
+  ],
+  "chart_repositories": [
+    {
+      "repo": "k8s-at-home/charts",
+      "description": "Helm charts for applications you run at home."
+    },
+    {
+      "repo": "nicholaswilde/helm-charts",
+      "description": "[@nicholaswilde](https://github.com/nicholaswilde)'s collection of Helm charts."
+    },
+    {
+      "repo": "truecharts/apps",
+      "description": "Charts that work with [TrueNAS SCALE](https://www.truenas.com/truenas-scale/)."
+    },
+    {
+      "repo": "halkeye/helm-charts",
+      "description": "[@halkeye](https://github.com/halkeye)'s collection of Helm charts.",
+      "url": "https://halkeye.github.io/helm-charts"
+    }
+  ]
+}
