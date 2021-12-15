@@ -110,7 +110,7 @@
     },
     {
       "repo": "budimanjojo/home-cluster",
-      "description": "Flux2/GitOps managed kubeadm cluster built without helm."
+      "description": "Flux2/GitOps managed k3s cluster built without helm."
     },
     {
       "repo": "khuedoan/homelab",
