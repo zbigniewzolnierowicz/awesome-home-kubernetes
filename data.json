@@ -143,6 +143,10 @@
     {
       "repo": "phybros/k3s-cluster",
       "description": "Flux/GitOps managed k3s home cluster"
+    },
+    {
+      "repo": "buvis-net/cluster",
+      "description": "ARM64 based k3s cluster managed by Flux2"
     }
   ],
   "chart_repositories": [
