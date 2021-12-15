@@ -20,7 +20,7 @@ A curation of projects and resources involving running Kubernetes at home. ⛵
 | [billimek/k8s-gitops](https://github.com/billimek/k8s-gitops)             | GitOps principles to define kubernetes k3s cluster state via code, running on mixed-architecture hardware with infra config in [billimek/homelab-infrastructure](https://github.com/billimek/homelab-infrastructure)        |
 | [bjw-s/home-ops](https://github.com/bjw-s/home-ops)             | Flux/GitOps managed Talos        |
 | [blackjid/k8s-gitops](https://github.com/blackjid/k8s-gitops)             | Flux/GitOps managed cluster built with Terraform and libvirt at [blackjid/homelab-infra](https://github.com/blackjid/homelab-infra)        |
-| [budimanjojo/home-cluster](https://github.com/budimanjojo/home-cluster)             | Flux2/GitOps managed kubeadm cluster built without helm.        |
+| [budimanjojo/home-cluster](https://github.com/budimanjojo/home-cluster)             | Flux2/GitOps managed k3s cluster built without helm.        |
 | [carpenike/k8s-gitops](https://github.com/carpenike/k8s-gitops)             | Flux/GitOps managed cluster built with kubeadm [carpenike/home-infra](https://github.com/carpenike/home-infra)        |
 | [cbirkenbeul/k3s-gitops](https://github.com/cbirkenbeul/k3s-gitops)             | Flux2/GitOps managed k3s cluster running on mixed architecture.        |
 | [charlie-haley/home-cluster](https://github.com/charlie-haley/home-cluster)             | Multi-architecture, Flux managed cluster - provisioned with Sidero.        |
