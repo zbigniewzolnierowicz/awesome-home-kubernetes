@@ -15,8 +15,17 @@ jobs:
   render-readme:
     runs-on: ubuntu-20.04
     steps:
+    - name: Get k8s-at-home token
+      id: get-app-token
+      uses: getsentry/action-github-app-token@v1
+      with:
+        app_id: ${{ secrets.K8S_AT_HOME_APP_ID }}
+        private_key: ${{ secrets.K8S_AT_HOME_APP_PRIVATE_KEY }}
+
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        token: ${{ steps.get-app-token.outputs.token }}
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -33,13 +42,12 @@ jobs:
       run: |
         python .github/scripts/render_readme.py > README.md
 
-    - name: Commit and push updated badges
-      run: |
-        if [[ -n $(git status --porcelain) ]]; then
-          git config user.name "$GITHUB_ACTOR"
-          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git pull
-          git add "README.md"
-          git commit -m "Render README.md" || exit 0
-          git push
-        fi
+    - name: Create commit
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        push_options: --force
+        commit_message: Auto-generate README
+        commit_user_name: k8s-at-home[bot]
+        commit_user_email: k8s-at-home[bot]@users.noreply.github.com
+        commit_author: k8s-at-home[bot] <k8s-at-home[bot]@users.noreply.github.com>
+        file_pattern: README.md
