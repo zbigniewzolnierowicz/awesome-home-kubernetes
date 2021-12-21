@@ -117,8 +117,8 @@
       "description": "Fully automated Kubernetes cluster from empty hard drives to running services with a single command (using PXE boot, k3s and ArgoCD)."
     },
     {
-      "repo": "nold360/heqet",
-      "description": "Argo-CD based Helm-Chart using the App-of-Apps pattern & some abstraction to make GitOps deployments/configuration as simple as possible. [[see docs](https://nold360.github.io/heqet)]"
+      "repo": "lib42/heqet",
+      "description": "Argo-CD Plugin & Helm-Chart using the App-of-Apps pattern & abstraction to make GitOps deployments simple & DRY. [[see docs](https://lib42.github.io/heqet) / [My Homelab](https://github.com/nold360/hive-apps)]"
     },
     {
       "repo": "p3lim/rudder",
