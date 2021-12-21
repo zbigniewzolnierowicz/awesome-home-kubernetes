@@ -147,6 +147,10 @@
     {
       "repo": "buvis-net/cluster",
       "description": "ARM64 based k3s cluster managed by Flux2"
+    },
+    {
+      "repo": "rogerrum/k8s-gitops",
+      "description": "ArgoCD managed k3s home cluster"
     }
   ],
   "chart_repositories": [
