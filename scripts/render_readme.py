@@ -61,16 +61,35 @@ def build_sourcegraph_user_search_url(repositories):
     return f"{SOURCEGRAPH_SEARCH_URL}?{urllib.parse.urlencode(params)}"
 
 
+def generate_gitops_search_urls(repositories):
+    gitops_tools = set(repo["gitops_tool"] for repo in repositories if "gitops_tool" in repo)
+
+    output = {}
+
+    for tool in gitops_tools:
+        output[tool] = build_sourcegraph_repo_search_url(
+            [repo for repo in repositories if "gitops_tool" in repo and repo["gitops_tool"] == tool]
+        )
+
+    return output
+
+
 def render_readme_template():
     env = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath=TEMPLATE_FOLDER))
+
+    search_urls = {
+        "user_repo": build_sourcegraph_repo_search_url(json_data["user_repositories"]),
+        "user_gitops_types": generate_gitops_search_urls(json_data["user_repositories"]),
+        "user_code": build_sourcegraph_user_search_url(json_data["user_repositories"]),
+        "chart_repo": build_sourcegraph_repo_search_url(json_data["chart_repositories"]),
+        "chart_user": build_sourcegraph_user_search_url(json_data["chart_repositories"]),
+    }
+
     template = env.get_template(TEMPLATE_FILE)
     output = template.render(
-        user_repo_search_url=build_sourcegraph_repo_search_url(json_data["user_repositories"]),
-        user_search_url=build_sourcegraph_user_search_url(json_data["user_repositories"]),
-        chart_repo_search_url=build_sourcegraph_repo_search_url(json_data["chart_repositories"]),
-        chart_user_search_url=build_sourcegraph_user_search_url(json_data["chart_repositories"]),
         user_repositories=json_data["user_repositories"],
         chart_repositories=json_data["chart_repositories"],
+        search_urls=search_urls,
     )
     return output
 

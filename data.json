@@ -2,39 +2,48 @@
   "user_repositories": [
     {
       "repo": "bjw-s/home-ops",
-      "description": "Flux/GitOps managed Talos"
+      "description": "Flux/GitOps managed Talos",
+      "gitops_tool": "flux"
     },
     {
       "repo": "onedr0p/home-cluster",
-      "description": "Running Flux and built with Ansible"
+      "description": "Running Flux and built with Ansible",
+      "gitops_tool": "flux"
     },
     {
       "repo": "carpenike/k8s-gitops",
-      "description": "Flux/GitOps managed cluster built with kubeadm [carpenike/home-infra](https://github.com/carpenike/home-infra)"
+      "description": "Flux/GitOps managed cluster built with kubeadm [carpenike/home-infra](https://github.com/carpenike/home-infra)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "zacheryph/k8s-gitops",
-      "description": "Flux/GitOps managed cluster, on k3os (cloud-init in `/k3os`)"
+      "description": "Flux/GitOps managed cluster, on k3os (cloud-init in `/k3os`)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "anthr76/infra",
-      "description": "Flux/Gitops mixed architecture managed clusters for homelab cololocations built with Talos and Sidero for netboot to Kubernetes on arm64 + amd64"
+      "description": "Flux/Gitops mixed architecture managed clusters for homelab cololocations built with Talos and Sidero for netboot to Kubernetes on arm64 + amd64",
+      "gitops_tool": "flux"
     },
     {
       "repo": "billimek/k8s-gitops",
-      "description": "GitOps principles to define kubernetes k3s cluster state via code, running on mixed-architecture hardware with infra config in [billimek/homelab-infrastructure](https://github.com/billimek/homelab-infrastructure)"
+      "description": "GitOps principles to define kubernetes k3s cluster state via code, running on mixed-architecture hardware with infra config in [billimek/homelab-infrastructure](https://github.com/billimek/homelab-infrastructure)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "zenxedo/k3s-gitops",
-      "description": "Flux/GitOps managed k3s cluster"
+      "description": "Flux/GitOps managed k3s cluster",
+      "gitops_tool": "flux"
     },
     {
       "repo": "blackjid/k8s-gitops",
-      "description": "Flux/GitOps managed cluster built with Terraform and libvirt at [blackjid/homelab-infra](https://github.com/blackjid/homelab-infra)"
+      "description": "Flux/GitOps managed cluster built with Terraform and libvirt at [blackjid/homelab-infra](https://github.com/blackjid/homelab-infra)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "vaskozl/home-infra",
-      "description": "Flux2 Raspberry Pi cluster running crème de la crème FOSS"
+      "description": "Flux2 Raspberry Pi cluster running crème de la crème FOSS",
+      "gitops_tool": "flux"
     },
     {
       "repo": "timtorchen/pi-cluster",
@@ -42,55 +51,68 @@
     },
     {
       "repo": "ams0/rancher-home",
-      "description": "RKE+Terraform-deployed cluster, with Fluxv1 ([video](https://www.youtube.com/watch?v=JrBo3UCe6ds&t=1375s))"
+      "description": "RKE+Terraform-deployed cluster, with Fluxv1 ([video](https://www.youtube.com/watch?v=JrBo3UCe6ds&t=1375s))",
+      "gitops_tool": "flux"
     },
     {
       "repo": "npawelek/k8s-gitops",
-      "description": "Flux2/GitOps managed cluster built with Ansible and kubeadm"
+      "description": "Flux2/GitOps managed cluster built with Ansible and kubeadm",
+      "gitops_tool": "flux"
     },
     {
       "repo": "zbigniewzolnierowicz/k8s-home",
-      "description": "Flux2/Gitops managed cluster running on k3s"
+      "description": "Flux2/Gitops managed cluster running on k3s",
+      "gitops_tool": "flux"
     },
     {
       "repo": "fobiat/k8s-gitops",
-      "description": "Flux2/GitOps managed cluster running on k8s"
+      "description": "Flux2/GitOps managed cluster running on k8s",
+      "gitops_tool": "flux"
     },
     {
       "repo": "xunholy/k8s-gitops",
-      "description": "Home Kubernetes cluster managed by GitOps on Raspberry Pis with Ansible at [kubeflare/k8s-cluster-installation](https://github.com/raspbernetes/k8s-cluster-installation)"
+      "description": "Home Kubernetes cluster managed by GitOps on Raspberry Pis with Ansible at [kubeflare/k8s-cluster-installation](https://github.com/raspbernetes/k8s-cluster-installation)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "lanquarden/roci-gitops",
-      "description": "Flux/GitOps managed k3s HA cluster built with Ansible at [lanquarden/home-operations](https://github.com/lanquarden/home-operations)"
+      "description": "Flux/GitOps managed k3s HA cluster built with Ansible at [lanquarden/home-operations](https://github.com/lanquarden/home-operations)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "angelnu/k8s-gitops",
-      "description": "Flux/GitOps k3s HA clusters (staging/production) built with Ansible/Proxmox. Use Ceph, Zalando Postgres and SOPS for persistency.)"
+      "description": "Flux/GitOps k3s HA clusters (staging/production) built with Ansible/Proxmox. Use Ceph, Zalando Postgres and SOPS for persistency.)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "WRMilling/k3s-gitops",
-      "description": "Flux2/GitOps managed k3s cluster running on mixed-architecture hardware (AMD64 + ARM64) as defined in [WRMilling/homelab-infrastructure](https://github.com/WRMilling/homelab-infrastructure)"
+      "description": "Flux2/GitOps managed k3s cluster running on mixed-architecture hardware (AMD64 + ARM64) as defined in [WRMilling/homelab-infrastructure](https://github.com/WRMilling/homelab-infrastructure)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "nicholaswilde/home-cluster",
-      "description": "Flux/GitOps managed k3s cluster running on an arm64 [Turing Pi 1](https://turingpi.com/)"
+      "description": "Flux/GitOps managed k3s cluster running on an arm64 [Turing Pi 1](https://turingpi.com/)",
+      "gitops_tool": "flux"
     },
     {
       "repo": "rust84/k8s-gitops",
-      "description": "Flux/GitOps managed k3s cluster running on mixed-architecture."
+      "description": "Flux/GitOps managed k3s cluster running on mixed-architecture.",
+      "gitops_tool": "flux"
     },
     {
       "repo": "auricom/home-cluster",
-      "description": "Flux2/Gitops managed cluster running on k3s"
+      "description": "Flux2/Gitops managed cluster running on k3s",
+      "gitops_tool": "flux"
     },
     {
       "repo": "mcfio/GitOps",
-      "description": "ARM64 based Kubernetes cluster managed by FluxV2, using Git as a 'single source of truth.'"
+      "description": "ARM64 based Kubernetes cluster managed by FluxV2, using Git as a 'single source of truth.'",
+      "gitops_tool": "flux"
     },
     {
       "repo": "dirtycajunrice/gitops",
-      "description": "Argo CD managed cluster"
+      "description": "Argo CD managed cluster",
+      "gitops_tool": "argocd"
     },
     {
       "repo": "todaywasawesome/atomic-cluster",
@@ -98,59 +120,73 @@
     },
     {
       "repo": "toboshii/home-cluster",
-      "description": "Flux2/GitOps managed k3s cluster deployed on Proxmox using Terraform and Ansible."
+      "description": "Flux2/GitOps managed k3s cluster deployed on Proxmox using Terraform and Ansible.",
+      "gitops_tool": "flux"
     },
     {
       "repo": "rwaltr/infra",
-      "description": "Argo/Terraform Managed Multi Cluster design."
+      "description": "Argo/Terraform Managed Multi Cluster design.",
+      "gitops_tool": "argocd"
     },
     {
       "repo": "cbirkenbeul/k3s-gitops",
-      "description": "Flux2/GitOps managed k3s cluster running on mixed architecture."
+      "description": "Flux2/GitOps managed k3s cluster running on mixed architecture.",
+      "gitops_tool": "flux"
     },
     {
       "repo": "budimanjojo/home-cluster",
-      "description": "Flux2/GitOps managed k3s cluster built without helm."
+      "description": "Flux2/GitOps managed k3s cluster built without helm.",
+      "gitops_tool": "flux"
     },
     {
       "repo": "khuedoan/homelab",
-      "description": "Fully automated Kubernetes cluster from empty hard drives to running services with a single command (using PXE boot, k3s and ArgoCD)."
+      "description": "Fully automated Kubernetes cluster from empty hard drives to running services with a single command (using PXE boot, k3s and ArgoCD).",
+      "gitops_tool": "flux"
     },
     {
       "repo": "lib42/heqet",
-      "description": "Argo-CD Plugin & Helm-Chart using the App-of-Apps pattern & abstraction to make GitOps deployments simple & DRY. [[see docs](https://lib42.github.io/heqet) / [My Homelab](https://github.com/nold360/hive-apps)]"
+      "description": "Argo-CD Plugin & Helm-Chart using the App-of-Apps pattern & abstraction to make GitOps deployments simple & DRY. [[see docs](https://lib42.github.io/heqet) / [My Homelab](https://github.com/nold360/hive-apps)]",
+      "gitops_tool": "argocd"
     },
     {
       "repo": "p3lim/rudder",
-      "description": "Flux managed [Talos](https://talos.dev) cluster"
+      "description": "Flux managed [Talos](https://talos.dev) cluster",
+      "gitops_tool": "flux"
     },
     {
       "repo": "Diaoul/home-ops",
-      "description": "Flux/GitOps managed k3s cluster with Ansible"
+      "description": "Flux/GitOps managed k3s cluster with Ansible",
+      "gitops_tool": "flux"
     },
     {
       "repo": "charlie-haley/home-cluster",
-      "description": "Multi-architecture, Flux managed cluster - provisioned with Sidero."
+      "description": "Multi-architecture, Flux managed cluster - provisioned with Sidero.",
+      "gitops_tool": "flux"
     },
     {
       "repo": "kitos9112/k8s-home",
-      "description": "Flux/GitOps managed K3s home cluster running on ARM64 and AMD64 hardware"
+      "description": "Flux/GitOps managed K3s home cluster running on ARM64 and AMD64 hardware",
+      "gitops_tool": "flux"
     },
     {
       "repo": "jr0dd/home-ops",
-      "description": "One repo to rule them all. This serves my home infrastructure and Kubernetes cluster"
+      "description": "One repo to rule them all. This serves my home infrastructure and Kubernetes cluster",
+      "gitops_tool": "flux"
     },
     {
       "repo": "phybros/k3s-cluster",
-      "description": "Flux/GitOps managed k3s home cluster"
+      "description": "Flux/GitOps managed k3s home cluster",
+      "gitops_tool": "flux"
     },
     {
       "repo": "buvis-net/cluster",
-      "description": "ARM64 based k3s cluster managed by Flux2"
+      "description": "ARM64 based k3s cluster managed by Flux2",
+      "gitops_tool": "flux"
     },
     {
       "repo": "rogerrum/k8s-gitops",
-      "description": "ArgoCD managed k3s home cluster"
+      "description": "ArgoCD managed k3s home cluster",
+      "gitops_tool": "argocd"
     }
   ],
   "chart_repositories": [
