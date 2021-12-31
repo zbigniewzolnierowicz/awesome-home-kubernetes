@@ -141,7 +141,7 @@
     {
       "repo": "khuedoan/homelab",
       "description": "Fully automated Kubernetes cluster from empty hard drives to running services with a single command (using PXE boot, k3s and ArgoCD).",
-      "gitops_tool": "flux"
+      "gitops_tool": "argocd"
     },
     {
       "repo": "lib42/heqet",
@@ -186,6 +186,11 @@
     {
       "repo": "rogerrum/k8s-gitops",
       "description": "ArgoCD managed k3s home cluster",
+      "gitops_tool": "argocd"
+    },
+    {
+      "repo": "locmai/humble",
+      "description": "A humble Kubernetes cluster managed by ArgoCD",
       "gitops_tool": "argocd"
     }
   ],
