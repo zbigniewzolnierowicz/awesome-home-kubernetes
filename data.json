@@ -179,8 +179,8 @@
       "gitops_tool": "flux"
     },
     {
-      "repo": "buvis-net/cluster",
-      "description": "ARM64 based k3s cluster managed by Flux2",
+      "repo": "buvis-net/clusters",
+      "description": "Clusters on Proxmox and bare metal managed by Flux2",
       "gitops_tool": "flux"
     },
     {
