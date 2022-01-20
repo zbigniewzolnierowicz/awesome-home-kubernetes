@@ -197,6 +197,11 @@
       "repo": "h3mmy/bloopysphere",
       "description": "Flux2 managed k3s cluster with Ansible and SOPS using mixed architecture. Still under construction",
       "gitops_tool": "flux"
+    },
+    {
+      "repo": "samip5/k8s-cluster",
+      "description": "GitOps/Flux2 managed full-stack Kubernetes cluster with Ansible and SOPS.",
+      "gitops_tool": "flux"
     }
   ],
   "chart_repositories": [
