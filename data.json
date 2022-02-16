@@ -207,6 +207,11 @@
       "repo": "thaum-xyz/ankhmorpork",
       "description": "GitOps managed k3s cluster running on ARM64 and AMD64 nodes. Built with ansible and jsonnet.",
       "gitops_tool": "flux"
+    },
+    {
+      "repo": "Truxnell/home-cluster",
+      "description": "Sidero/Talos cluster defined with GitOps/Flux.  Utilizing SOPS & Renovate.  Raspi4 8GB Master + 3 Intel NUC Workers.",
+      "gitops_tool": "flux"
     }
   ],
   "chart_repositories": [
