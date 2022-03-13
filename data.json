@@ -212,6 +212,10 @@
       "repo": "Truxnell/home-cluster",
       "description": "Sidero/Talos cluster defined with GitOps/Flux.  Utilizing SOPS & Renovate.  Raspi4 8GB Master + 3 Intel NUC Workers.",
       "gitops_tool": "flux"
+    },
+    {
+      "repo": "geekdojo-ofc/rpi-talos-netboot",
+      "description": "Re-runnable script for standing up N number of Talos nodes on Raspberry PIs using Netboot (dnsmasq+apache)."
     }
   ],
   "chart_repositories": [
