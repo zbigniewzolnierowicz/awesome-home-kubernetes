@@ -216,6 +216,11 @@
     {
       "repo": "geekdojo-ofc/rpi-talos-netboot",
       "description": "Re-runnable script for standing up N number of Talos nodes on Raspberry PIs using Netboot (dnsmasq+apache)."
+    },
+    {
+      "repo": "fabito/htk8s",
+      "description": "HTPC (Home Theater Personal Computer) services running on k3s.",
+      "gitops_tool": "argocd"
     }
   ],
   "chart_repositories": [
