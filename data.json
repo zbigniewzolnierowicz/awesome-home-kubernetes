@@ -221,6 +221,11 @@
       "repo": "fabito/htk8s",
       "description": "HTPC (Home Theater Personal Computer) services running on k3s.",
       "gitops_tool": "argocd"
+    },
+    {
+      "repo": "narze/home-cluster",
+      "description": "Minimal Arm64-based k3s cluster with GitOps on ArgoCD running on Raspberry Pi 4",
+      "gitops_tool": "argocd"
     }
   ],
   "chart_repositories": [
