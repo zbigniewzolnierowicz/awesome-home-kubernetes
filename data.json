@@ -149,11 +149,6 @@
       "gitops_tool": "argocd"
     },
     {
-      "repo": "p3lim/rudder",
-      "description": "Flux managed [Talos](https://talos.dev) cluster",
-      "gitops_tool": "flux"
-    },
-    {
       "repo": "Diaoul/home-ops",
       "description": "Flux/GitOps managed k3s cluster with Ansible",
       "gitops_tool": "flux"
