@@ -48,7 +48,7 @@ A curation of projects and resources involving running Kubernetes at home. ⛵
 | [p3lim/rudder](https://github.com/p3lim/rudder)             | Flux managed [Talos](https://talos.dev) cluster        |
 | [phybros/k3s-cluster](https://github.com/phybros/k3s-cluster)             | Flux/GitOps managed k3s home cluster        |
 | [rogerrum/k8s-gitops](https://github.com/rogerrum/k8s-gitops)             | ArgoCD managed k3s home cluster        |
-| [rust84/k8s-gitops](https://github.com/rust84/k8s-gitops)             | Flux/GitOps managed k3s cluster running on mixed-architecture.        |
+| [rust84/k8s-gitops](https://github.com/rust84/k8s-gitops)             | Sidero/Talos provisioned cluster with Gitops/Flux and Renovate. 3 Pi4 masters and 3 NUCs.        |
 | [rwaltr/infra](https://github.com/rwaltr/infra)             | Argo/Terraform Managed Multi Cluster design.        |
 | [samip5/k8s-cluster](https://github.com/samip5/k8s-cluster)             | GitOps/Flux2 managed full-stack Kubernetes cluster with Ansible and SOPS.        |
 | [thaum-xyz/ankhmorpork](https://github.com/thaum-xyz/ankhmorpork)             | GitOps managed k3s cluster running on ARM64 and AMD64 nodes. Built with ansible and jsonnet.        |
