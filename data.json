@@ -96,7 +96,7 @@
     },
     {
       "repo": "rust84/k8s-gitops",
-      "description": "Flux/GitOps managed k3s cluster running on mixed-architecture.",
+      "description": "Sidero/Talos provisioned cluster with Gitops/Flux and Renovate. 3 Pi4 masters and 3 NUCs.",
       "gitops_tool": "flux"
     },
     {
