@@ -221,6 +221,11 @@
       "repo": "narze/home-cluster",
       "description": "Minimal Arm64-based k3s cluster with GitOps on ArgoCD running on Raspberry Pi 4",
       "gitops_tool": "argocd"
+    },
+    {
+      "repo": "rafaribe/home-ops",
+      "description": "Flux2/GitOps setup with mixed architecture k3s and talos clusters.",
+      "gitops_tool": "flux"
     }
   ],
   "chart_repositories": [
