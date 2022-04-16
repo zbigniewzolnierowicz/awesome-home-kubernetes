@@ -226,6 +226,11 @@
       "repo": "rafaribe/home-ops",
       "description": "Flux2/GitOps setup with mixed architecture k3s and talos clusters.",
       "gitops_tool": "flux"
+    },
+    {
+      "repo": "eyulf/homelab",
+      "description": "Homelab running a Kubernetes Cluster using libvirt, Terraform, Ansible, Kubeadm, and ArgoCD.",
+      "gitops_tool": "argocd"
     }
   ],
   "chart_repositories": [
