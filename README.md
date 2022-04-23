@@ -61,7 +61,7 @@ A curation of projects and resources involving running Kubernetes at home. ⛵
 | [WRMilling/k3s-gitops](https://github.com/WRMilling/k3s-gitops)             | Flux2/GitOps managed k3s cluster running on mixed-architecture hardware (AMD64 + ARM64) as defined in [WRMilling/homelab-infrastructure](https://github.com/WRMilling/homelab-infrastructure)        |
 | [xunholy/k8s-gitops](https://github.com/xunholy/k8s-gitops)             | Home Kubernetes cluster managed by GitOps on Raspberry Pis with Ansible at [kubeflare/k8s-cluster-installation](https://github.com/raspbernetes/k8s-cluster-installation)        |
 | [zacheryph/k8s-gitops](https://github.com/zacheryph/k8s-gitops)             | Flux/GitOps managed cluster, on k3os (cloud-init in `/k3os`)        |
-| [zbigniewzolnierowicz/k8s-home](https://github.com/zbigniewzolnierowicz/k8s-home)             | Flux2/Gitops managed cluster running on k3s        |
+| [zbigniewzolnierowicz/cluster](https://github.com/zbigniewzolnierowicz/cluster)             | Flux2/Gitops managed cluster running on k3s        |
 | [zenxedo/k3s-gitops](https://github.com/zenxedo/k3s-gitops)             | Flux/GitOps managed k3s cluster        |
 
 ## Helm Chart Repositories
